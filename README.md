@@ -7,7 +7,7 @@ This app is a demonstration for the following features:
   - Allows importing from react-native, e.g. import { View } from 'react-native'
   - Implements Platform extensions (.web.ts/.web.tsx over .ts/.tsx)
   - Implements SSR
-    - const styles = StyleSheet.create({root: { height: '100%' }}) works without hydration mismatches or FOC
+    - const styles = StyleSheet.create({root: { height: '100%' }}) works without hydration mismatches or FOUC
   - Demo of mobile-first SSR approach
     - useResponsive() hook returns mobile dimensions on SSR, then gets swapped to the correct one on hydration
       - RNW doesn't have built-in media queries (responsive layouts).
